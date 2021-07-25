@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>PING | Coming Soon</title>
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="src/SCSS/style.css">
+    <!--Style Sheet-->
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <!--FONTS-->
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/eded3175eb.js" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="wrapper__img">
+                <img src="Images/logo.svg" alt="PING Logo">
+            </div>
+            <div class="wrapper__txt">
+                <h1><span>We are launching</span> soon!</h1>
+                <p>Subscribe and get notified</p>
+            </div>
+            <form action="#" id="form">
+                <input type="email" placeholder="Your email address..." required id="email" oninput="validate()">
+                <button>Notify Me</button>
+            </form>
+            <span id="appendError"></span>
+            <div class="wrapper__illustration">
+                <img src="Images/illustration-dashboard.png" alt="Dashboard Illustration" class="ill">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+    <!--JavaScript-->
+    <script src="src/JavaScript/app.js"></script>
+    <!--JavaScript-->
+</body>
+</html>
